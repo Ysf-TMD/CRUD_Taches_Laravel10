@@ -1,0 +1,23 @@
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// font awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+
+// Variables
+@import 'variables';
+@import 'notation';
+@import '../assets/scss/material-kit';
+
+// Bootstrap
+//@import '~bootstrap-material-design/scss/bootstrap-material-design';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
